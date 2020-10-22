@@ -5,7 +5,9 @@ import { connect } from "react-redux";
 const { floor, random } = Math;
 
 export const ROUTES = {
-  Main: { path: "/", exact: true },
+  Main: { path: "/main", exact: true },
+  Pc: { path: "/pc", exact: true },
+  Mobile: { path: "/mobile", exact: true },
 };
 
 export const dispatchEvent = (type, data = {}, element) => {
