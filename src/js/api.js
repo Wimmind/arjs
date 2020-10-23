@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 const { floor, random } = Math;
 
 export const ROUTES = {
-  Main: { path: "/main", exact: true },
+  Main: { path: "/", exact: true },
   Pc: { path: "/pc", exact: true },
   Mobile: { path: "/mobile", exact: true },
 };

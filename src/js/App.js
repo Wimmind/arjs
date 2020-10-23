@@ -18,7 +18,6 @@ class App extends React.Component {
               />
             ))}
           </Switch>
-          <Redirect from='/' to='/main'/>
         </Router>
       </div>
     )
