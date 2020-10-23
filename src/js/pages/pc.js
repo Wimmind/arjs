@@ -12,7 +12,7 @@ class PcPage extends React.Component {
                     pathname={''}
                 />
                 <div className="img-container">
-                    <img src='https://raw.githubusercontent.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex-image-big.jpeg' 
+                    <img src='https://stemkoski.github.io/AR-Examples/markers/hiro.png' 
                     alt={"hint"} />
                 </div>
             </div>
